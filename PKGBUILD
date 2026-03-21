@@ -1,6 +1,6 @@
 pkgname=man-pages
-pkgver=6.16
-pkgrel=2
+pkgver=6.17
+pkgrel=3
 pkgdesc="Linux man pages"
 arch=('x86_64')
 url="https://www.kernel.org/doc/man-pages"
@@ -23,7 +23,7 @@ license=('BSD-2-Clause'
     'MIT'
     'Spencer-94')
 source=(https://www.kernel.org/pub/linux/docs/${pkgname}/${pkgname}-${pkgver}.tar.xz)
-sha256sums=(8e247abd75cd80809cfe08696c81b8c70690583b045749484b242fb43631d7a3)
+sha256sums=(d18f21a602b09778a5a9096bf1be8441b7733e998150474accf703d165f4ebf4)
 
 prepare() {
     cd ${pkgname}-${pkgver}
